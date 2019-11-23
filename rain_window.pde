@@ -35,6 +35,8 @@ void draw() {
   //前のモードと今のモードが変わった瞬間だけbackground(255);を一回かける。
   //rainDensity()がめちゃ思いっぽい。多分ピクセルをやっているから。
   
+  //Refreshの時、長方形の透明度を徐々にあげていけばイージングみたいにできるかも!
+  
   if(needRefresh){
     background(255);
     needRefresh = false;
